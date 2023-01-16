@@ -1,0 +1,309 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <title>Landing page profesor de ingles</title>
+    <!-- Agregar la referencia a Bootstrap -->
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
+    <style>
+        /* Estilos personalizados */
+        .jumbotron {
+            background-image: url('bg-teacher.jpg');
+            background-size: cover;
+            color: white;
+        }
+
+        /* Estilos para la sección de testimonios */
+        .testimonials {
+            background-color: #f8f9fa;
+            padding: 30px;
+        }
+
+        /* Estilos para la sección de contacto */
+        .contact-form {
+            background-color: #f8f9fa;
+            padding: 30px;
+        }
+
+        @media (max-width: 991.98px) {
+            .navbar-nav {
+                flex-direction: column;
+            }
+
+            .navbar-nav .nav-link {
+                padding: .5rem 1rem;
+            }
+        }
+    </style>
+</head>
+
+<body>
+    <header>
+        <nav class="navbar navbar-expand-lg navbar-light bg-light">
+
+            <a class="navbar-brand" href="#">Profesor de inglés</a>
+            <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav"
+                aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarNav">
+                <ul class="navbar-nav">
+                    <li class="nav-item">
+                        <a class="nav-link" href="#about">Acerca de</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#services">Servicios</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#testimonials">Testimonios</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#contact">Contacto</a>
+                    </li>
+                </ul>
+            </div>
+        </nav>
+    </header>
+    <main>
+        <section class="jumbotron jumbotron-fluid text-center">
+            <div class="container">
+                <h1 class="display-4">Mejora tu inglés conmigo</h1>
+                <p class="lead">Clases personalizadas y enfocadas en tus necesidades</p>
+                <a href="#services" class="btn btn-primary btn-lg">Conoce más</a>
+            </div>
+        </section>
+        <section class="container my-5" id="about">
+            <img src="teacher-photo.jpg" alt="Foto del profesor">
+            <h2 class="text-center">Acerca del profesor</h2>
+            <p class="card-text">Mi nombre es Steven pero me puedes llamar Steve y soy un profesor de inglés nativo
+                certificado con más de
+                10 años de experiencia
+                en la enseñanza del idioma. Tengo un título en educación y una certificación CELTA. Me encanta ayudar a
+                mis estudiantes a mejorar su inglés y alcanzar sus metas.</p>
+        </section>
+        <section class="container my-5" id="services">
+            <h2 class="text-center">Servicios</h2>
+            <div class="row">
+                <div class="col-md-4">
+                    <div class="card">
+                        <div class="card-body">
+                            <h4 class="card-title text-center"> ¡Aprende inglés de manera individualizada con clases
+                                privadas!</h4>
+                            <p class="card-text">Estas clases son ideales para personas que desean aprender inglés de
+                                manera individualizada, adaptado a sus necesidades y objetivos específicos. El profesor
+                                podrá enfocarse en las áreas específicas en las que el estudiante necesita mejorar y
+                                trabajar en ellas de manera más efectiva. Además, las clases individuales permiten al
+                                estudiante progresar a su propio ritmo y tener una mayor interacción con el profesor.
+                            </p>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-4">
+                    <div class="card">
+                        <div class="card-body">
+                            <h4 class="card-title">Preparación para exámenes</h4>
+                            <p class="card-text">La preparación para exámenes de inglés como TOEFL o IELTS es esencial
+                                para aquellos que desean estudiar o trabajar en un entorno internacional. Estos exámenes
+                                evalúan las habilidades de lectura, escritura, habla y comprensión auditiva del inglés.
+                                Un profesor especializado en la preparación para estos exámenes podrá ayudar a los
+                                estudiantes a comprender las exigencias y las estrategias para obtener una mejor
+                                puntuación. La preparación para estos exámenes también puede incluir la practica de
+                                exámenes simulados, la revisión de ejercicios y la enseñanza de técnicas para mejorar la
+                                comprensión auditiva y la lectura. Además de preparar a los estudiantes para el examen,
+                                también ayudará a mejorar sus habilidades generales en inglés..</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-4">
+                    <div class="card">
+                        <div class="card-body">
+                            <h4 class="card-title text-center">¡Aprende inglés desde cualquier lugar con las clases en
+                                línea de Steven!</h4>
+                            <p class="card-text">¿Estás buscando una forma de aprender inglés que se adapte a tu estilo
+                                de vida? ¡Las clases en línea con el profesor Steven son ideales para ti! A través de
+                                videollamadas, podrás tomar clases de inglés desde cualquier lugar y en cualquier
+                                momento. El profesor Steven se asegurará de que su enseñanza esté en línea con tus
+                                objetivos individuales y necesidades.
+                            </p>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-4">
+                    <div class="card">
+                        <div class="card-body">
+                            <h4 class="card-title">Aprende inglés en grupo: Mejora tus habilidades de manera divertida y
+                                efectiva</h4>
+                            <p class="card-text">En estas clases grupales, los estudiantes tendrán la oportunidad de
+                                aprender inglés de manera colaborativa y enriquecedora. A través de actividades y
+                                ejercicios interactivos, los estudiantes podrán mejorar sus habilidades en gramática,
+                                vocabulario, comprensión auditiva y expresión oral. Además, al trabajar en grupo, los
+                                estudiantes tendrán la oportunidad de practicar su inglés en situaciones cotidianas y
+                                con personas de diferentes niveles de habilidad. Estas clases son ideales para aquellos
+                                que deseen aprender inglés de manera divertida y efectiva, mientras se relacionan con
+                                otros estudiantes que comparten su mismo interés..</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-4">
+                    <div class="card">
+                        <div class="card-body">
+                            <h4 class="card-title">¡Aprende inglés en tus propios horarios con el profesor!</h4>
+                            <p class="card-text">¿Estás buscando una forma de aprender inglés que se adapte a tu agitada
+                                agenda? ¡Mira lo que tenemos para ti! Con el profesor Steve, puedes tomar clases de
+                                inglés en línea en los horarios que mejor te funcionen. Ya sea que prefieras clases
+                                temprano en la mañana antes de ir al trabajo o tardes después de la escuela, el profesor
+                                John se ajustará a tu horario para que puedas avanzar en tus habilidades de inglés.
+                                Además de horarios flexibles, el profesor John ofrece un método de enseñanza
+                                personalizado y material de estudio para ayudarte a alcanzar tus metas. ¡No pierdas la
+                                oportunidad de mejorar tu inglés con el profesor John! ¡Inscríbete hoy mismo!.</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-4">
+                    <div class="card">
+                        <div class="card-body">
+                            <h4 class="card-title text-">¡Mejora tu inglés con un método de enseñanza personalizado!
+                            </h4>
+                            <p class="card-text">¿Estás cansado de seguir un método de enseñanza genérico que no se
+                                adapta a tus necesidades? El profesor John ofrece un método de enseñanza personalizado
+                                para ayudarte a alcanzar tus metas de aprendizaje de inglés. Ya sea que necesites
+                                mejorar tu pronunciación, desarrollar tus habilidades de escritura o prepararte para un
+                                examen específico, el profesor John se asegurará de que su enseñanza esté en línea con
+                                tus objetivos individuales. Además, el profesor John ofrece horarios flexibles para
+                                adaptarse a tu agenda y material de estudio para ayudarte a progresar entre las clases.
+                                ¡Inscríbete hoy mismo en el método de enseñanza personalizado del profesor John y
+                                comienza a mejorar tu inglés!</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <section class="testimonials" id="testimonials">
+            <h2 class="text-center">Testimonios</h2>
+            <div class="container">
+                <div class="row">
+                    <div class="col-md-6">
+                        <div class="card">
+                            <div class="card-body">
+                                <blockquote class="blockquote">
+                                    <p class="mb-0">"El profesor es excelente, me ha ayudado a mejorar mi inglés de
+                                        manera significativa."</p>
+                                    <footer class="blockquote-footer">Juan Pérez</footer>
+                                </blockquote>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-md-6">
+                        <div class="card">
+                            <div class="card-body">
+                                <blockquote class="blockquote">
+                                    <p class="mb-0">"Las clases son muy entretenidas y me han ayudado a ganar confianza
+                                        al hablar inglés."</p>
+                                    <footer class="blockquote-footer">Maria Gomez</footer>
+                                </blockquote>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <!-- Precios -->
+        <div class="container">
+            <h2 class="text-center">Precios de las clases con el profesor Steven</h2>
+            <div class="row">
+                <div class="col-sm-4">
+                    <div class="card">
+                        <div class="card-body">
+                            <h5 class="card-title">Clases individuales</h5>
+                            <p class="card-text">$50 por hora</p>
+                            <ul>
+                                <li>Enfoque en áreas específicas de mejora</li>
+                                <li>Progreso a tu propio ritmo</li>
+                                <li>Mayor interacción con el profesor</li>
+                            </ul>
+                            <a href="#" class="btn btn-primary">Inscríbete</a>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-sm-4">
+                    <div class="card">
+                        <div class="card-body">
+                            <h5 class="card-title">Clases en grupo</h5>
+                            <p class="card-text">$25 por hora por estudiante</p>
+                            <ul>
+                                <li>Interacción con otros estudiantes</li>
+                                <li>Precios más accesibles</li>
+                                <li>Material de estudio compartido</li>
+                            </ul>
+                            <a href="#" class="btn btn-primary">Inscríbete</a>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-sm-4">
+                    <div class="card">
+                        <div class="card-body">
+                            <h5 class="card-title">Clases en línea</h5>
+                            <p class="card-text">$40 por hora</p>
+                            <ul>
+                                <li>Comodidad y flexibilidad</li>
+                                <li>Enfoque en tus objetivos y necesidades</li>
+                                <li>Material de estudio en línea</li>
+                            </ul>
+                            <a href="#" class="btn btn-primary">Inscríbete</a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <section class="contact-form" id="contact">
+            <h2 class="text-center">Contacto</h2>
+            <div class="container">
+                <div class="row">
+                    <div class="col-md-6 offset-md-3">
+                        <form>
+                            <div class="form-group">
+                                <label for="name">Nombre</label>
+                                <input type="text" class="form-control" id="name" name="name" required>
+                            </div>
+                            <div class="form-group">
+                                <label for="email">Email</label>
+                                <input type="email" class="form-control" id="email" name="email" required>
+                            </div>
+                            <div class="form-group">
+                                <label for="message">Mensaje</label>
+                                <textarea class="form-control" id="message" name="message" rows="3" required></textarea>
+                            </div>
+                            <button type="submit" class="btn btn-primary">Enviar</button>
+                        </form>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <div class="container">
+            <div class="row">
+                <div class="col-12 text-center">
+                    <div class="alert alert-success" role="alert">
+                        ¡Aprovecha nuestra oferta especial! ¡Suscribete hoy y consigue tu primera clase
+                        <strong>GRATIS</strong> con el profesor Steven.
+                    </div>
+                </div>
+            </div>
+            <div class="row">
+                <div class="col-12 text-center">
+                    <a href="https://wa.me/1234567890?text=Me%20gustaría%20agendar%20mi%20primera%20clase%20gratis"
+                        class="btn btn-primary btn-lg">Suscribirme</a>
+                </div>
+            </div>
+        </div>
+
+
+        <!-- Agregar la referencia a jQuery y Bootstrap JS -->
+        <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"></script>
+        <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
+    </main>
+    <footer>
+        <p class="text-center">Copyright © 2022 Profesor de inglés</p>
+    </footer>
+    </section>

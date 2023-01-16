@@ -1,0 +1,142 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+}
+
+header {
+    background-color: #f1f1f1;
+    padding: 20px;
+    text-align: center;
+}
+
+header h1 {
+    margin: 0;
+}
+
+nav {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 20px;
+}
+
+.feedback-section {
+    padding: 20px;
+    text-align: center;
+    display: flex;
+}
+
+.testimonials,
+.contact {
+    width: 50%;
+    padding: 20px;
+}
+
+.hamburger-menu {
+    cursor: pointer;
+}
+
+.bar {
+    width: 30px;
+    height: 3px;
+    background-color: black;
+    margin: 6px 0;
+}
+
+.nav-links {
+    display: flex;
+    list-style: none;
+    margin: 0;
+    padding: 0;
+}
+
+.nav-links li {
+    margin: 0 10px;
+}
+
+.nav-links a {
+    color: black;
+    text-decoration: none;
+}
+
+/* cambia el menú hamburguesa a una X al hacer clic */
+.change .bar:nth-child(1) {
+    transform: rotate(45deg) translate(5px, 5px);
+}
+
+.change .bar:nth-child(2) {
+    opacity: 0;
+}
+
+.change .bar:nth-child(3) {
+    transform: rotate(-45deg) translate(5px, -5px);
+}
+
+/* muestra los enlaces de navegación al hacer clic en el menú hamburguesa */
+.nav-active {
+    display: flex;
+}
+
+
+.teacher-info {
+    display: flex;
+    align-items: center;
+    padding: 20px;
+}
+
+.teacher-info img {
+    width: 200px;
+    margin-right: 20px;
+}
+
+.services {
+    padding: 20px;
+}
+
+.services ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+}
+
+.testimonials {
+    background-color: #f1f1f1;
+    padding: 20px;
+}
+
+.testimonials blockquote {
+    margin: 0;
+    padding: 20px;
+}
+
+.contact {
+    padding: 20px;
+    text-align: center;
+}
+
+.contact form {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+.contact label,
+.contact input,
+.contact textarea {
+    width: 100%;
+    margin-bottom: 10px;
+    padding: 12px;
+}
+
+.contact input[type="submit"] {
+    background-color: #4CAF50;
+    color: white;
+    padding: 12px 20px;
+    border: none;
+    cursor: pointer;
+}
+
+.contact input[type="submit"]:hover {
+    background-color: #45a049;
+}
